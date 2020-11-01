@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>
+            Praanesh Portfolio
+        </title>
+        <link rel="stylesheet" href="style.css">
+       <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+      </head>
+    <body>
+        
+        <section class="banner" id="sec">
+            <header>
+                <a href="#" class="logo">Portfolio</a>
+                <div id="toggle" onclick="toggle()"></div>
+            </header>
+            <div class="content">
+                <h2>Hey All,<br>I'm<span> Sudharsana Praanesh</span></h2>
+                <h3>
+                 Front End Developer</h3> 
+            <a href="about.html">Click here to go to next page</a></div>
+            <ul class="sci">
+                <li>
+                    <a href="https://www.linkedin.com/in/sudharsanapraanesh"><img src="Images/linkedin.png"></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/s_praanesh"><img src="Images/twitter.png"></a>
+                </li>
+                <li>
+                    <a href="https://github.com/sudharsanapraanesh"><img src="Images/gitHub.png"></a>
+                </li>
+            </ul>
+        </section>
+        <div id="navigation">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                 <li>
+                    <a href="about.html">About</a>
+                </li>
+                 <li>
+                    <a href="project.html">Projects</a>
+                </li>
+                 <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <script type="text/javascript">
+    function toggle(){
+        var sec = document.getElementById('sec');
+        var nav = document.getElementById('navigation');
+        sec.classList.toggle('active');
+        nav.classList.toggle('active');
+
+    }
+</script>
+    </body>
+</html>
